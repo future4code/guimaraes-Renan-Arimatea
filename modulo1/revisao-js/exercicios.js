@@ -43,7 +43,18 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+
+    let novoArray = []
+
+    for (let num of array) {
+
+        if (num % 2 === 0) {
+
+            novoArray.push(Math.pow(num,2))
+        }
+    }
+    
+    return novoArray
 }
 
 // EXERCÍCIO 06
