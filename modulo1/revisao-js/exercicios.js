@@ -30,6 +30,15 @@ function retornaArrayOrdenado(array) {
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
   
+    const analisaPar= (array) => {
+
+        if (array % 2 === 0)
+        
+        return true
+    }
+
+    return array.filter(analisaPar)
+
 }
 
 // EXERCÍCIO 05
