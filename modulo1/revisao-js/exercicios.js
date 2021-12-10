@@ -198,6 +198,25 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
 
+    for (const saldoAtual of contas) {
+
+        somaCompras = saldoAtual.compras.reduce((soma, i) => {
+
+            soma += i
+
+            console.log(saldoAtual.compras, soma);
+
+            return soma
+
+        })
+
+        saldoAtual.saldoTotal -= somaCompras
+
+
+        saldoAtual.compras = []
+
+        return contas
+    }
 }
 
 // EXERCÍCIO 15A
