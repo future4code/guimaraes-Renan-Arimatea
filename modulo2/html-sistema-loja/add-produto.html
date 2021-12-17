@@ -5,44 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Adicionar Produto</title>
 </head>
 
 <body>
-    <div>
-        <p>Gamer Store</p>
-    </div>
+    <header class="cabecalho">
+        <h1>Gamer Store</h1>
+        <p>De Gamer para Gamer</p>
+    </header>
 
-    <div>
+    <div class="menu">
         <a href="./index.html">Página Inicial</a>
         <a href="./ctrl-estoque.html">Controle de Estoque</a>
         <a href="./add-produto.html">Adicionar Produto</a>
         <a href="./funcionarios.html">Funcionários</a>
     </div>
 
-    <h2>Adicionar Produto</h2>
+    <h2 id="menu_id">Adicionar Produto</h2>
 
-    <form action="">
+    <form id="form" action="">
         <div>
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
         </div>
 
         <div>
-            <label for="descricao">Descrição do produto: </label>
+            <label class="descricao" for="descricao">Descrição do produto: </label>
             <!-- Adicione o id apropriado para o input abaixo -->
             <input type="text" id="descrição-produto" name="descrição">
         </div>
 
         <div>
-            <label for="preco">Preço (em R$): </label>
+            <label class="valor" for="preco">Preço (em R$): </label>
             <!-- Adicione o id apropriado e o type para receber números abaixo -->
             <input type="number" id="preço-produto" name="preço">
         </div>
 
         <div>
             <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label>Quantidade disponível: </label>
+            <label class="valor">Quantidade disponível: </label>
             <input type="number" id="quantidade-produto" name="quantidade">
         </div>
 
@@ -52,6 +54,18 @@
         </div>
 
     </form>
+
+    <footer class="rodape">
+
+        <div class="redes">
+            <p>Siga-nos nas redes sociais!</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2190/2190356.png" />
+            <img
+                src="https://cdn-icons.flaticon.com/png/512/3955/premium/3955027.png?token=exp=1639690334~hmac=453044a020a4ba853a5a6d56c368fe66" />
+        </div>
+
+    </footer>
 
 </body>
 

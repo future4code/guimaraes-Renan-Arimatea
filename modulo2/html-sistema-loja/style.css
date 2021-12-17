@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.938);
+    height: 100%;
+}
+.cabecalho {
+
+    background-color: rgb(0, 0, 0);
+ 
+}
+
+.cabecalho h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.cabecalho p {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    font-style: oblique;
+    padding-left: 4%;
+    padding-top: 3px;
+    padding-bottom: 5px;
+   
+}
+
+.menu {
+
+    background-color: #34D138;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+
+    color: rgb(252, 252, 252);
+    background-color: #ffffff;
+    color:#34D138 ;
+    transition-duration: 0.4s;
+}
+
+#menu_id {
+
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo {
+
+    background: url(./img/a66a278586d951be38e516976644f650.jpg) no-repeat center center;
+    background-size: cover;
+
+    color: #ffff;
+    height: auto;
+    width: auto;
+
+    min-height: calc(100vh - 70px);
+    
+}
+
+.conteudo h1{
+
+    color: #ffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    width: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.conteudo h1 strong {
+    
+    color: #34D138;
+}
+
+.conteudo h1 strong:hover {
+    
+    color: #ffff;
+    background-color: #34D138;
+    transition-duration: 0.4s;
+    
+}
+
+.rodape {
+    
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    padding: 10px;
+}
+
+.contato h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #34D138;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+.contato p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+
+
+.redes {  
+
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+
+    height: auto;
+}
+
+.rodape img {
+
+    align-items: center;
+    width: 15px;
+}
+
+
+/* Estoque */
+
+
+#produtos {
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : .9em;
+    margin-bottom : .5em;
+    padding: 10px;
+    table-layout: fixed;
+    text-align: center;
+
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+    min-height: calc(100vh - 70px);
+}
+
+#produtos tr th {
+
+    background-color: #34D138;
+    padding: 10px;
+    color: #ffffff;
+    align-items: center;
+}
+
+#produtos tr td {
+
+    align-items: center;
+}
+
+
+#produtos td img{
+
+    width: 250px;
+    align-items: center;
+}
+
+/* ADICIONAR PRODUTO */
+
+#form {
+
+    width: auto;
+    height: auto;
+    margin-top : .9em;
+    margin-bottom : .5em;
+    padding: 10px;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+    min-height: calc(100vh - 70px);
+}
+
+#form label {
+
+    display: list-item;
+    padding: 10px;  
+}
+
+#form input {
+
+    height: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+#form button {
+
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#form button:hover{
+
+    background-color: #34D138;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+
+/* FUNCIONÁRIOS */
+
+#funcionarios {
+
+    width: 65%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : .9em;
+    margin-bottom : .5em;
+    padding: 10px;
+    table-layout: fixed;
+
+    background-image: url(./img/CEC_resource\ directory_Illustration\ 2.svg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: right;
+    list-style: none;
+
+    min-height: calc(100vh - 70px);
+}
+
+#funcionarios li:hover {
+
+    background-color: #34D138;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
