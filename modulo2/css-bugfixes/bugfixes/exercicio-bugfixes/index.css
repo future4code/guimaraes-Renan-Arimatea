@@ -126,8 +126,9 @@ td button {
     color: black;
 }
 
-#back-button:hover {
-    background-color: #635a3d
+td > button:hover {
+    background-color: #fcd421;
+    color: white
 }
 
 #itens {
