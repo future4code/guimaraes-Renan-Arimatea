@@ -164,6 +164,14 @@ td > img {
     background-color: white;
 }
 
+.icone:hover{
+    opacity: 50%;
+}
+
+.icone:active{
+    opacity: 100%;
+}
+
 #pesquisa {
     border: none;
     border-bottom: 1.5px solid;
