@@ -159,3 +159,8 @@ td > img {
     height: 20px;
     background-color: white;
 }
+
+#pesquisa {
+    border: none;
+    border-bottom: 1.5px solid;
+}
