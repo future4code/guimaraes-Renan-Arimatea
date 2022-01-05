@@ -69,7 +69,11 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8.6vh;
+    height: 40vh;
 }
 
 #container-de-descricao>ol {
@@ -77,12 +81,17 @@ div img {
 }
 
 #container-para-comprar {
+    display: flex;
     background-color: #e7eb90;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 45vh;
 }
 
 #container-para-comprar>p {
     color: #c44f00;
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 60px;
 }
 
