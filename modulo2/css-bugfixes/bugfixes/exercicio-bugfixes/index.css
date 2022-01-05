@@ -136,6 +136,7 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    text-align: center;
 }
 
 td > button:hover {
@@ -166,4 +167,9 @@ td > img {
 #pesquisa {
     border: none;
     border-bottom: 1.5px solid;
+}
+
+#voltar {
+    text-align: center;
+    padding-top: 30px;
 }
