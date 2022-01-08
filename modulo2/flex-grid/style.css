@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEÇALHO DO SITE */
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: mediumvioletred;
+    padding: 1vw;
+    margin: auto;
+    width: 100%;
+}
+
+header > img {
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    padding-right: 5px;
+}
+
+header > h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: flex-start;
+}
+
+header > a {
+    display:block;
+    justify-content:right;
+    margin: auto;
+    margin-right: 3vw;
+}
+
+header > a > button {
+    width: 150%;
+}
+
+/* MENU LATERAL */
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: #f2d0e0;
+    width: 300px;
+    height: 105vh;
+}
+
+.menu-lateral > ul {
+    margin-left: 10px;
+}
+
+.menu-lateral > ul > li{
+    list-style: none;
+    padding: 10px;
+   
+}
+
+.menu-lateral > ul > li > a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-lateral > ul > li > a > img {
+    width: 18px;
+    height: 16px;
+    text-align: center;
+}
+
+
+/* CONTEÚDO DO SITE */
+
+.produtos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3vh;
+    column-gap: 1vh;
+    margin: 0 0 2vh;
+    padding: 20px;
+}
+
+.bolos {
+    box-shadow: 3px 0.7px 0.7px darkgray;
+}
+
+.bolos > img{
+    width: 250px;
+}
+
+.bolos > h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.bolos > p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: mediumvioletred;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+    display: grid;
+    width: 100%;
+} 
