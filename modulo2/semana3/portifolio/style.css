@@ -68,12 +68,13 @@ header .avatar-user img {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid var(--green);
+    background-color: white;
+    border: .4rem solid var(--green);
 }
 
 header .avatar-user img:hover {
     transform: scale(1.1);
-    border: .5rem solid #1f81e4;
+    border: .6rem solid #F92D57;
 }
 
 header .avatar-user .name {
@@ -108,8 +109,31 @@ header  .navbar ul li a {
 
 header .navbar ul li a:hover  {
     background: var(--green);
+    transform: scale(1.05);
 }
 
+header .redes {
+    display: block;
+    align-items: center;
+}
+
+header .redes img {
+    width: 3.5rem;
+    margin-top: 5vh;
+    background-color: var(--green);
+    border-radius: 1.5rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.521);
+}
+
+header .redes #linkedin:hover {
+    transform: scale(1.2);
+    background-color: #1f81e4;
+}
+
+header .redes #github:hover {
+    transform: scale(1.2);
+    background-color: white;
+}
 
 
 
@@ -187,6 +211,7 @@ section {
 .btn:hover {
     background: var(--green);
     transition: 0.4s;
+    transform: scale(1.1);
 }
 
 
