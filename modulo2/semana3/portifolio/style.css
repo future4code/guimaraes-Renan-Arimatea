@@ -1,3 +1,5 @@
+/*CONFIGURAÇÕES GERAIS*/
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Roboto:wght@400;700&display=swap');
 
 :root {
@@ -40,6 +42,10 @@ body {
     overflow-x: hidden;
     padding-left: 35rem;
 }
+
+
+
+/* MENU LATERAL*/
 
 header {
     position: fixed;
@@ -95,5 +101,61 @@ header  .navbar ul li a {
 }
 
 header .navbar ul li a:hover  {
+    background: var(--green);
+}
+
+
+
+
+/* HOME*/
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.home h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.home h1 span {
+    color: var(--green);
+}
+
+.home p {
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.btn {
+    padding: .7rem 3rem;
+    background: #f29a16;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+.btn i {
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover {
     background: var(--green);
 }
