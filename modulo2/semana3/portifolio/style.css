@@ -288,3 +288,35 @@ section {
     padding-top: 5px;
     font-size: 1.3rem;
 }
+
+
+
+/*SEÇÃO PORTFÓLIO*/
+
+.portfolio .box-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.portfolio .box-conteudo .box {
+    height: 30rem;
+    width: 46rem;
+    border: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: inset 0 0 1em var(--green);
+}
+
+.portfolio .box-conteudo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box-conteudo .box:hover img {
+    transform: scale(1.2);
+}
