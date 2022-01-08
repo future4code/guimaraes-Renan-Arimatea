@@ -325,6 +325,10 @@ section {
 
 /* SEÇÃO FORMULÁRIO*/
 
+.conteudo {
+    padding: 0;
+}
+
 .contato .row {
     display: flex;
     align-items: center;
