@@ -68,12 +68,18 @@ header .avatar-user img {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid var(--green);
+    border: .5rem solid var(--green);
+}
+
+header .avatar-user img:hover {
+    transform: scale(1.1);
+    border: .5rem solid #1f81e4;
 }
 
 header .avatar-user .name {
     font-size: 3.5rem;
     color: white;
+    padding-bottom: 1rem;
 }
 
 header .avatar-user .postagem {
@@ -220,7 +226,12 @@ section {
 }
 
 .sobre .row .habilidades .box  span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--green);
     padding-bottom: 2rem;
+}
+
+.sobre .row .habilidades .box  h3 {
+    padding-top: 5px;
+    font-size: 1.3rem;
 }
