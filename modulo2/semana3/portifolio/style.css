@@ -275,6 +275,7 @@ section {
 
 .sobre .row .habilidades .box:hover {
     transform: scale(1.2);
+    box-shadow: inset 1px  1px 2px #f29a16;
 }
 
 .sobre .row .habilidades .box  span {
