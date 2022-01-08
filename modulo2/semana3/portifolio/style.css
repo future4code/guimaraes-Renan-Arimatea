@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Roboto:wght@400;700&display=swap')
+
+:root {
+    --green: #0cf20c;
+
+}
+
+* {
+    font-family: 'Azeret Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+
+*::selection  {
+    background: var(--green);
+    color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+}
+
+body {
+    background: black;
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #74afbe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .avatar-user img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid #0cf20c;
+}
+
+header .avatar-user .name {
+    font-size: 3.5rem;
+    color: white;
+}
+
+header .avatar-user .postagem {
+    font-size: 2rem;
+    color: white;
+}
+
+header .navbar {
+    width: 100%;
+}
+
+header .navbar ul {
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+header  .navbar ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #368ee7;
+    color: white;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
