@@ -105,3 +105,51 @@ footer p {
     font-weight: bold;
     color: white;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-device-width: 450px) {
+
+    .logo a > img {
+        width: 30px;
+    }
+
+    header {
+        font-size: 10px;
+    }
+
+    .pesquisa {
+        width: 200px;
+    }
+
+    .pesquisa input {
+        width: 400px;
+        height: 1.5em;
+
+    }
+
+    .pesquisa img  {
+        width: 12px;
+    }
+
+    main video {
+        padding-top: 15px;
+        width: 80%;
+    }
+    
+    main h2 {
+        font-size: 20px;
+    }
+    
+    main p {
+        font-size: 12px;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+}
