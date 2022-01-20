@@ -102,3 +102,57 @@ footer p {
     font-weight: bold;
     color: white;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-device-width: 450px) {
+
+    .logo img {
+        width: 30px;
+    }
+
+    header {
+        font-size: 10px;
+    }
+
+    .pesquisa {
+        width: 200px;
+    }
+
+    .pesquisa input {
+        width: 400px;
+        height: 1.5em;
+
+    }
+
+    .pesquisa img  {
+        width: 12px;
+    }
+
+    .conteudo {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .videos video {
+        width: 80%;
+    }
+
+    .videos h2 {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    
+    .videos p {
+        font-size: 12px;
+        padding: 0 5px 5px 5px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+}
