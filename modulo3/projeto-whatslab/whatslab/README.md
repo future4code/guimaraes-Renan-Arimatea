@@ -20,8 +20,9 @@ O Whatslab é um aplicativo de troca de mensagens tal como o WhatsApp, Telegram,
 
 * ReactJS;
 
-## 🔗 Link do Surge: 
+## 🔗 Link do Surge:
 
+[WhatsLab](https://tart-pump.surge.sh/)
 
 ## O que funciona?
 
