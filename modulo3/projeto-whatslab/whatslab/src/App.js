@@ -5,7 +5,7 @@ import {MsgForm} from './components/MsgForm';
 const AppBox = styled.div`
   max-width: 50vw;
   height: 100vh;
-  border: 0.1em solid black;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   background-color: #F5EEDC;
