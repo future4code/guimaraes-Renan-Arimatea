@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom"
+
 import backgroundVideo from "../video/BestSongs.mp4"
 
 
@@ -48,6 +50,11 @@ const HomeContainer = styled.div`
         border-radius: 1.5em;
     }
 
+    button a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
     button:hover {
         cursor: pointer;
         transform: scale(1.1);
@@ -64,13 +71,13 @@ class Home extends React.Component  {
             <HomeContainer>
                 <h1>Bem vindo ao <span>Labefy</span></h1>
 
-                <p>Comece a escutar suas músicas favoritas agora mesmo!</p>
+                <p>Playlists para você se manter no topo das paradas.</p>
 
                 <video autoPlay loop  muted id="video">
                     <source src={backgroundVideo} type="video/mp4"/>
                 </video>
 
-                <button href="">Começar</button>
+                <Link to="/playlists"><button>Começar</button></Link>
 
             </HomeContainer>
         )

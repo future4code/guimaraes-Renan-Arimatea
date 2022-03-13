@@ -66,7 +66,7 @@ class Header extends React.Component {
     render () {
         return (
             <NavbarMenu>
-                <img src={labefy} alt="logo labefy" />
+                <Link to="/"><img src={labefy} alt="logo labefy"/></Link>
                 <nav>
                    <ul>
                        <li><Link to="/">Home</Link></li>
