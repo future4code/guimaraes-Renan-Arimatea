@@ -24,10 +24,16 @@ li {
     cursor: pointer;
 }
 
+ul {
+    text-decoration: none;
+    list-style: none;
+
+}
 
 svg {
     font-size: 2em;
     cursor: pointer;
+    color: #FFF;
 }
 
 svg:hover {
@@ -55,19 +61,19 @@ class Footer extends React.Component {
         <Footercontainer className="footer">
                 <ul className="social-list">
                     <li>
-                        <FaFacebook/>
+                        <a href="https://www.facebook.com/" target="_blank"><FaFacebook/></a>
                     </li>
 
                     <li>
-                        <FaInstagram/>
+                        <a href="https://www.instagram.com/" target="_blank"><FaInstagram/></a>
                     </li>
 
                     <li>
-                        <FaLinkedin/>
+                        <a href="https://www.linkedin.com/" target="_blank"><FaLinkedin/></a>
                     </li>
 
                     <li>
-                        <FaTwitter/>
+                        <a href="https://twitter.com/" target="_blank"><FaTwitter/></a>
                     </li>
                 </ul>
 

@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom"
+
 import labefy from "../../images/labefy.png"
+
 
 const NavbarMenu = styled.div`
 
@@ -11,7 +14,7 @@ const NavbarMenu = styled.div`
     margin: auto;
     padding: 1em;
 
-    background-color: black;
+    background-image: linear-gradient(to right, #000000, #000000, #340D10, #000000, #000000);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
@@ -47,23 +50,28 @@ const NavbarMenu = styled.div`
         list-style: none;
     }
 
-    li:hover {
+    li a {
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    li a:hover {
         cursor: pointer;
         color: #7AFFA2;
         transition: 0.5s;
     }
 `
 
-class Navbar extends React.Component {
+class Header extends React.Component {
     render () {
         return (
             <NavbarMenu>
-                <img src={labefy} alt="logo labefy" />
+                <Link to="/"><img src={labefy} alt="logo labefy"/></Link>
                 <nav>
                    <ul>
-                       <li>Home</li>
-                       <li>Playlists</li>
-                       <li>Sobre nós</li>
+                       <li><Link to="/">Home</Link></li>
+                       <li><Link to="/playlists">Minha Playlist</Link></li>
+                       <li><Link to="/aboutus">Sobre nós</Link></li>
                    </ul>
                 </nav>
             </NavbarMenu>
@@ -71,4 +79,4 @@ class Navbar extends React.Component {
     }
 }
 
-export default Navbar
+export default Header
