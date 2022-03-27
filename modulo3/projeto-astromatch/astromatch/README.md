@@ -29,7 +29,7 @@ O Astromatch é um aplicativo de namoro tal como o Tinder e muitos outros, poré
 * Botão Like;
 * Botão Deslike;
 * Botão de limpar Swipes e Matches;
-* Botão de Visulalizar Matches;
+* Botão de Visualizar Matches;
 * Apagar músicas.
 
 ## O que precisa adcionar?
