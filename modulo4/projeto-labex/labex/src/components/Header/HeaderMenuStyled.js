@@ -8,10 +8,15 @@ export const NavbarMenu = styled.div`
 
     background-color: black;
     padding: 1em 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 
     img {
-        width: 150px;
+        width: 120px;
+
+        :hover {
+            cursor: pointer;
+        }
     }
 
     nav {
@@ -22,12 +27,13 @@ export const NavbarMenu = styled.div`
         margin: 0;
         padding: .5em;
         color: #FFF;
+        text-decoration: none;
 
         :hover {
             cursor: pointer;
             transform: scale(1.15);
             transition: .3s;
-            color: #008037;
+            color: #7CB342;
         }
     }
 
@@ -38,4 +44,3 @@ export const NavbarMenu = styled.div`
     }
 
 `
-

@@ -7,12 +7,15 @@ import LoginPage from "../pages/LoginPage/LoginPage";
 import AdminHomePage from "../pages/AdminHomePage/AdminHomePage";
 import CreatetripPage from "../pages/CreateTripPage/CreateTripPage";
 import ApplicationFormPage from "../pages/ApplicationFormPage/ApplicationFormPage";
+import HeaderMenu from "../components/Header/HeaderMenu";
+import FooterMenu from "../components/Footer/FooterMenu";
 
 const Router = () => {
 
     return (
         <div>
             <BrowserRouter>
+                <HeaderMenu/>
                 <Routes>
                 <Route index element={<HomePage/>}/>
                 <Route exact path="/trips/list" element={<ListTripsPage/>}/>
@@ -22,6 +25,7 @@ const Router = () => {
                 <Route exact path="/admin/trips/create" element={<CreatetripPage/>}/>
                 <Route exact path="/admin/trips/:id" element={<ApplicationFormPage/>}/>
                 </Routes>
+                <FooterMenu/>
             </BrowserRouter>
         </div>
     )

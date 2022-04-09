@@ -11,7 +11,7 @@ const HeaderMenu = () => {
             <nav>
                 <Link to="/">HOME</Link>
                 <p>|</p>
-                <Link href="/trips/list">VIAGENS</Link>
+                <Link to="/trips/list">VIAGENS</Link>
                 <p>|</p>
                 <Link to="/login">LOGIN</Link>
             </nav>
