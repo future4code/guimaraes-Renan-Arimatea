@@ -17,7 +17,7 @@ export const ListTripsContent = styled.div`
     height: 100vh;
     width: 100%;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gruppo', cursive;
     color: #FFF;
 `
 
