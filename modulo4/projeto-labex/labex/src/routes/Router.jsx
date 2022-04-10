@@ -29,7 +29,7 @@ const Router = () => {
                 <Route exact path="/login" element={<LoginPage/>}/>
                 <Route exact path="/admin/trips/list" element={<AdminHomePage/>}/>
                 <Route exact path="/admin/trips/create" element={<CreatetripPage/>}/>
-                <Route exact path="/admin/trips/:id" element={<ApplicationFormPage/>}/>
+                <Route exact path="/trips/:id" element={<ApplicationFormPage/>}/>
                 </Routes>
                 <FooterMenu/>
             </BrowserRouter>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const ListTripsContent = styled.div`
 
+    background-color: #000;
     background-image: url(/img/TripsPage.png);
     background-position: center;
     background-attachment: fixed;

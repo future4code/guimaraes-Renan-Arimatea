@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const TripDetailsContent = styled.div`
 
+    background-color: #000;
     background-image: url(/img/Marte.png);
     background-position: center;
     background-attachment: fixed;

@@ -4,7 +4,7 @@ import "../../index.css"
 export const HomePageMain = styled.div`
 
     margin: auto;
-   
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 `

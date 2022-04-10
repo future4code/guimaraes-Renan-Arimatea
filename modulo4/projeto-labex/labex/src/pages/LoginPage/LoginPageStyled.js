@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const LoginContent = styled.div`
 
+    background-color: #000;
     background-image: url(/img/Login.png);
     background-position: center;
     background-attachment: fixed;
