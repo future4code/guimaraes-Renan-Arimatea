@@ -41,6 +41,10 @@ export const NavbarMenu = styled.div`
         margin: 0;
         padding: .5em;
         color: #FFF;
+
+        :hover {
+            cursor: default;
+        }
     }
 
 `

@@ -9,11 +9,11 @@ const HeaderMenu = () => {
             <Link to="/"><img src={logo} alt="Logo LabeX" /></Link>
             
             <nav>
-                <Link to="/">HOME</Link>
+                <Link to="/">Home</Link>
                 <p>|</p>
-                <Link to="/trips/list">VIAGENS</Link>
+                <Link to="/trips/list">Viagens</Link>
                 <p>|</p>
-                <Link to="/login">LOGIN</Link>
+                <Link to="/login">Login</Link>
             </nav>
             
         </NavbarMenu>

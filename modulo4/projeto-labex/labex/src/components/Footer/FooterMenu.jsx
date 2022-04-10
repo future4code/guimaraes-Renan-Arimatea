@@ -38,7 +38,7 @@ const FooterMenu = () => {
                 <li>Contato</li>
             </ul>
 
-            <p className="copy_rigth"><span>LabeX</span> &copy; 2022 - Todos os direitos reservados.</p>
+            <p className="copy_rigth">Labe<span>X</span> &copy; 2022 - Todos os direitos reservados.</p>
         </Footercontainer>
        
     )
