@@ -2,6 +2,7 @@ import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import HomePage from "../pages/HomePage/HomePage"
 import ListTripsPage from "../pages/ListTripsPage/ListTripsPage";
+import TripDetailsPage from "../pages/TripDetailsPage/TripDetailsPage";
 import TripDetailsPageMarte from "../pages/TripDetailsPage/Marte/TripDetailsPageMarte";
 import TripDetailsPageLua from "../pages/TripDetailsPage/Lua/TripDetailsPageLua";
 import TripDetailsPageEuropa from "../pages/TripDetailsPage/Europa/TripDetailsPageEuropa";
@@ -21,15 +22,17 @@ const Router = () => {
                 <HeaderMenu/>
                 <Routes>
                 <Route index element={<HomePage/>}/>
+                <Route exact path="/login" element={<LoginPage/>}/>
                 <Route exact path="/trips/list" element={<ListTripsPage/>}/>
+                <Route exact path="/admin/trips/list" element={<AdminHomePage/>}/>
+                <Route exact path="/trips/application" element={<ApplicationFormPage/>}/>               
+                <Route exact path="/admin/trips/:id" element={<TripDetailsPage/>}/>
+                <Route exact path="/admin/trips/create" element={<CreatetripPage/>}/>
+                
                 <Route exact path="/pages/tripspage/marte" element={<TripDetailsPageMarte/>}/>
                 <Route exact path="/pages/tripspage/lua" element={<TripDetailsPageLua/>}/>
                 <Route exact path="/pages/tripspage/europa" element={<TripDetailsPageEuropa/>}/>
                 <Route exact path="/pages/tripspage/saturno" element={<TripDetailsPageSaturno/>}/>
-                <Route exact path="/login" element={<LoginPage/>}/>
-                <Route exact path="/admin/trips/list" element={<AdminHomePage/>}/>
-                <Route exact path="/admin/trips/create" element={<CreatetripPage/>}/>
-                <Route exact path="/trips/:id" element={<ApplicationFormPage/>}/>
                 </Routes>
                 <FooterMenu/>
             </BrowserRouter>
