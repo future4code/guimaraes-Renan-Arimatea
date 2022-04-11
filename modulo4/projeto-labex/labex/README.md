@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Projeto de Fixação: LabeX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Olá Terráqueos! 🖖👽
 
-## Available Scripts
+Este é um Projeto de Fixação do curso Web Full Stack da Labenu.
 
-In the project directory, you can run:
+## 💬 Sobre o projeto:
 
-### `npm start`
+O LabeX é um site de viagem espacial que tem como objetivo se candidatar e criar viagens espaciais. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👩‍💻 Linguagens Usadas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* CSS;
 
-### `npm test`
+* HTML;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* JAVASCRIPT.
 
-### `npm run build`
+## 📚 Bibliotecas Usadas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ReactJS;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Link do Surge:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[LabeX](https://straight-lunchroom.surge.sh/)
 
-### `npm run eject`
+## O que funciona?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Navegação entre páginas;
+* Acessar paineis;
+* Detalhes das Viagens;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## O que não funciona?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Formulários;
+* Área Privada;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## O que precisa adcionar?
 
-## Learn More
+* Implementação de Lógica para as áreas restritas;
+* Versão mobile;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📷 Layout Desktop 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Captura de tela 01](src/media/Captura%20de%20tela%202022-04-10%20235143.png)
+![Captura de tela 02](src/media/Captura%20de%20tela%202022-04-10%20235214.png)
+![Captura de tela 03](src/media/Captura%20de%20tela%202022-04-10%20235238.png)
+![Captura de tela 04](src/media/Captura%20de%20tela%202022-04-10%20235255.png)
+![Captura de tela 05](src/media/Captura%20de%20tela%202022-04-10%20235311.png)
+![Captura de tela 05](src/media/Captura%20de%20tela%202022-04-10%20235326.png)
+![Captura de tela 05](src/media/Captura%20de%20tela%202022-04-10%20235342.png)
+![Captura de tela 05](src/media/Captura%20de%20tela%202022-04-10%20235359.png)
+![Captura de tela 05](src/media/Captura%20de%20tela%202022-04-10%20235421.png)
