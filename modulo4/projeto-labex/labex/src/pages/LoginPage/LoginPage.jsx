@@ -4,7 +4,7 @@ import {Login} from "../../components/Request/Request"
 import useForm from "../../components/CustomHooks/UseForm"
 import { useNavigate } from "react-router-dom"
 import UseUnprotectedPage from "../../components/CustomHooks/UseUnprotectedPage";
-import {GoToHomePage} from "../../routes/RouteFunctions"
+import {GoToHomePage, GoToAdminHomePage} from "../../routes/RouteFunctions"
 
 
 function LoginPage() {
@@ -45,7 +45,7 @@ function LoginPage() {
 
             <LoginBtn>
                 <button onClick={() => GoToHomePage(navigate)}>Voltar</button>
-                <button type={"submit"}>Entrar</button>
+                <button type="submit" onClick={() => GoToAdminHomePage(navigate)}>Entrar</button>
             </LoginBtn>
         </LoginContent>
     )

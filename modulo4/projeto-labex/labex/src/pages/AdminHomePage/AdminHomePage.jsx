@@ -9,7 +9,7 @@ import { AdminHomeBox, AdminHomeBtn, AdminHomeBtn2, AdminHomeContent } from "./A
 
 function AdminHomePage() {
 
-//    useProtectedPage()
+    // useProtectedPage()
 
    const navigate = useNavigate()
 

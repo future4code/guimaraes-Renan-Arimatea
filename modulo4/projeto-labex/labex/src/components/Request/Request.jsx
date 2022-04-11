@@ -13,18 +13,15 @@ export const ApplyToTrip = (url, body, Id) => {
 }
 
 export const Login = (body, navigate) => {
-  axios.post(`${URL_BASE}/login`, body,
-    {
-      headers: {
-        ContentType: "application/json"
-      }
-    })
-    .then((response) => {
-      alert("Login Realizado com sucesso!")
-      localStorage.setItem("token", response.data.token)
-      GoToAdminHomePage(navigate)
-    })
-    .catch((err) => alert(err))
+  axios
+  .post(`${URL_BASE}/login`, body)
+    
+  .then((response) => {
+    alert("Login Realizado com sucesso!")
+    localStorage.setItem("token", response.data.token)
+    GoToAdminHomePage(navigate)
+  })
+    .catch((err) => alert("Houve um Problema", err.response))
 }
 
 export const DecideCandidate = (body, tripId, candidateId, GetTrips2, mensagem) => {
