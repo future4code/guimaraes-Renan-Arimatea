@@ -40,8 +40,20 @@ export const ApplicationFormSpace = styled.div`
     height: 25vh;
     width: 30%;
 
-    margin: 0 auto;
+    margin: 1em auto;
     border-radius: 1em 1em 0 0;
+
+    select {
+        background-color: #000;
+        color: gray;
+
+        width: 26em;
+        padding: .5em;
+        margin: .5em;
+
+        border: 1px solid #FFF;
+        border-radius: .5em;
+    }
 
     input {
         background-color: #000;
@@ -54,6 +66,7 @@ export const ApplicationFormSpace = styled.div`
         border: 1px solid #FFF;
         border-radius: .5em;
     }
+
 
 `
 
@@ -69,6 +82,7 @@ export const ApplicationFormCountry = styled.div`
     width: 30%;
 
     margin: 0 auto;
+    margin-bottom: 1em;
 
     select {
         background-color: #000;
@@ -143,6 +157,8 @@ export const ApplicationFormBtn =  styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router";
-import { GoToAdminHomePage } from "../../route/RouteFunctions";
+import { GoToAdminHomePage } from "../../routes/RouteFunctions";
 
 const UseUnprotectedPage = () => {
     const navigate = useNavigate()

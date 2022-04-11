@@ -29,10 +29,10 @@ const Router = () => {
                 <Route exact path="/admin/trips/:id" element={<TripDetailsPage/>}/>
                 <Route exact path="/admin/trips/create" element={<CreatetripPage/>}/>
                 
-                <Route exact path="/pages/tripspage/marte" element={<TripDetailsPageMarte/>}/>
-                <Route exact path="/pages/tripspage/lua" element={<TripDetailsPageLua/>}/>
-                <Route exact path="/pages/tripspage/europa" element={<TripDetailsPageEuropa/>}/>
-                <Route exact path="/pages/tripspage/saturno" element={<TripDetailsPageSaturno/>}/>
+                <Route exact path="/tripspage/marte" element={<TripDetailsPageMarte/>}/>
+                <Route exact path="/tripspage/lua" element={<TripDetailsPageLua/>}/>
+                <Route exact path="/tripspage/europa" element={<TripDetailsPageEuropa/>}/>
+                <Route exact path="/tripspage/saturno" element={<TripDetailsPageSaturno/>}/>
                 </Routes>
                 <FooterMenu/>
             </BrowserRouter>

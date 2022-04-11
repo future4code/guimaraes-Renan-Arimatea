@@ -1,13 +1,13 @@
-import react from "react"
+import React, { useEffect } from "react"
 import axios from "axios"
 import { URL_BASE } from "./UrlBase"
-import { GoToAdminHomePage } from "../route/RouteFunctions"
-import { useEffect } from "react"
+import { GoToAdminHomePage } from "../../routes/RouteFunctions"
+
 
 export const ApplyToTrip = (url, body, Id) => {
   axios.post(`${url}/trips/${Id}/apply`, body)
     .then(() => {
-      alert("Aplicação enviada com sucesso!")
+      alert("Inscrição enviada com sucesso!")
     })
     .catch((err) => alert(err.response.message))
 }
@@ -65,7 +65,7 @@ export const DeleteTrip = (tripId, GetTrips, mensagem) => {
 
 
     })
-    .catch((err) => alert("deu ruim!", err))
+    .catch((err) => alert("algo inesperado ocorreu!", err))
 }
 
 export const CreateTrip = (body, mensagem) => {
@@ -82,5 +82,5 @@ export const CreateTrip = (body, mensagem) => {
     .then((response) => {
       alert(mensagem, response)
     })
-    .catch((err) => alert("deu ruim!", err))
+    .catch((err) => alert("algo inesperado ocorreu!", err))
 }

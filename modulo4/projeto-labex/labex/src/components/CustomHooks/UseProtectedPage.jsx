@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { GoToLoginPage } from "../../route/RouteFunctions";
+import { GoToLoginPage } from "../../routes/RouteFunctions";
 
 const useProtectedPage = () => {
     const navigate = useNavigate()

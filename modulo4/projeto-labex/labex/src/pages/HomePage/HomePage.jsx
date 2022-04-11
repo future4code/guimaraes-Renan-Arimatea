@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { ContentBox, HomePageMain, VideoContent, VideoDescription, HomePageBg, VideoBg } from "./HomePageStyled";
 import {InfoBox} from "./HomePageStyled"
 import sample from "../../video/space.mp4"
+import { Link } from "react-router-dom";
 
 
 function HomePage() {
@@ -20,13 +21,13 @@ function HomePage() {
                     <div>
                         <h3>Colônia Lunar</h3>
                         <p>01/10/2022 - 30/10/2022 (30 dias)</p>
-                        <button>Saiba +</button>
+                        <Link to="/tripspage/lua">Saiba +</Link>
                     </div>
                     <br />
                     <div>
                         <h3>Colônia Marte</h3>
                         <p>01/11/2022 - 15/12/2022 (45 dias)</p>
-                        <button>Saiba +</button>
+                        <Link to="/tripspage/marte">Saiba +</Link>
                     </div>
                 </InfoBox>
             </ContentBox>

@@ -83,12 +83,14 @@ export const InfoBox = styled.div`
         color: #7CB342;
     }
 
-    div button {
+    div a {
         font-size: 1.1em;
+        font-weight: 600;
         padding: .2em .8em;
 
         background-color: #008037;
         color: #FFF;
+        text-decoration: none;
 
         border: 1px solid #008037;
         border-radius: .3em;
@@ -97,6 +99,8 @@ export const InfoBox = styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `

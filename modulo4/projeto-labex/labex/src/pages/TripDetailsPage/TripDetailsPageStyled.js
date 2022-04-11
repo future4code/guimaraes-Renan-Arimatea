@@ -50,35 +50,7 @@ export const TripBox =  styled.div`
     }
 `
 
-export const TripValor = styled.div`
-
-    background-color: rgba(0, 0, 0, 0.8);
-
-    width: 25%;
-    height: 20vh;
-
-    margin: auto;
-    padding: 2em;
-
-    text-align: center;
-    border-radius: 1em;
-
-    h3 {
-        font-size: 1.5em;
-        text-align: center;
-        color: #7CB342;
-    }
-
-    p {
-        font-size: 1.4em;
-        text-align: center;
-        
-    }
-
-    p > span {
-        color: #FFF;
-        
-    }
+export const TripBtn = styled.div`
 
     button {
         font-size: 1.1em;
@@ -94,6 +66,46 @@ export const TripValor = styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
+    }
+`
+
+export const ListCandidates = styled.div`
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 50%;
+    height: 65vh;
+
+    margin: auto;
+    padding: 2em;
+
+    border-radius: 1em;
+
+`
+
+export const CandidatesPending = styled.div`
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 25%;
+    height: 20vh;
+
+    margin: auto;
+    padding: 2em;
+
+    text-align: center;
+    border-radius: 1em;
+
+    p {
+        font-size: 1.4em;
+        text-align: center;
+        
+    }
+
+    b {
+        color: #7CB342;
     }
 `

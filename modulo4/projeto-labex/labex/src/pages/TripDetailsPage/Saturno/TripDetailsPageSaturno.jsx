@@ -1,8 +1,12 @@
 import React from "react";
 import { TripBox, TripDetailsContent, TripValor } from "./TripDetailsPageStyled";
-
+import { useNavigate } from "react-router-dom"
+import { GoToApplicationPage } from "../../../routes/RouteFunctions";
 
 function TripDetailsPageSaturno() {
+
+    const navigate = useNavigate()
+
     return (
         <TripDetailsContent>
            <TripBox>
@@ -22,7 +26,7 @@ function TripDetailsPageSaturno() {
            <TripValor>
                <h3>Valor</h3>
                <p><span>$ 850.000,00</span></p>
-               <button>Candidatar</button>
+               <button onClick={() => GoToApplicationPage(navigate)}>Candidatar-se</button>
            </TripValor>
         </TripDetailsContent>
     )

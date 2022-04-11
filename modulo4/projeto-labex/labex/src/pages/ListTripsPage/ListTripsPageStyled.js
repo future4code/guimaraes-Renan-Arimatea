@@ -20,6 +20,12 @@ export const ListTripsContent = styled.div`
 
     font-family: 'Gruppo', cursive;
     color: #FFF;
+
+    h3 {
+        font-size: 3em;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 0 1em;
+    }
 `
 
 
@@ -28,40 +34,29 @@ export const SearchContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2em;
+    padding: 2em;
     
-    input {
-        
-        background-color: rgba(0, 0, 0, 0.8);
-        color: #FFF;
-
-        padding-left: 1em;
-        font-size: 1em;
-
-        border: none;
-        height: 2em;
-        width: 20em;
-
-        :focus {
-            border: none;
-        }
-
-    }
-
     button {
         background-color: #008037;
         color: #FFF;
 
-        border: none;
-        border-radius: 0 5px 5px 0;
+        border: 1px solid #008037;
+        border-radius: .3em;
         
         height: 2.63em;
-        width: 5em;
+        width: 10em;
         
+        font-size: 1.2em;
         font-weight: bold;
+
+        font-family: 'Gruppo', cursive;
         
         :hover {
             cursor: pointer;
+            transform: scale(1.1);
+            transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `
@@ -110,12 +105,14 @@ export const InfoBox = styled.div`
         color: #7CB342;
     }
 
-    div button {
+    div a {
         font-size: 1.1em;
+        font-weight: 600;
         padding: .2em .8em;
 
         background-color: #008037;
         color: #FFF;
+        text-decoration: none;
 
         border: 1px solid #008037;
         border-radius: .3em;
@@ -124,6 +121,8 @@ export const InfoBox = styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `

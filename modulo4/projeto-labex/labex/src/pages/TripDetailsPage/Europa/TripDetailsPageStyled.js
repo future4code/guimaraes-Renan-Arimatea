@@ -81,8 +81,10 @@ export const TripValor = styled.div`
     }
 
     button {
+        font-family: 'Gruppo', cursive;
         font-size: 1.1em;
-        padding: .2em .8em;
+        font-weight: 600;
+        padding: .5em .8em;
 
         background-color: #008037;
         color: #FFF;
@@ -94,6 +96,8 @@ export const TripValor = styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `

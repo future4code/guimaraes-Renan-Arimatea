@@ -1,8 +1,13 @@
 import React from "react";
 import { TripBox, TripDetailsContent, TripValor } from "./TripDetailsPageStyled";
+import { useNavigate } from "react-router-dom"
+import { GoToApplicationPage } from "../../../routes/RouteFunctions";
 
 
 function TripDetailsPageMarte() {
+
+    const navigate = useNavigate()
+
     return (
         <TripDetailsContent>
            <TripBox>
@@ -22,7 +27,7 @@ function TripDetailsPageMarte() {
            <TripValor>
                <h3>Valor</h3>
                <p><span>$ 250.000,00</span></p>
-               <button>Candidatar</button>
+               <button onClick={() => GoToApplicationPage(navigate)}>Candidatar-se</button>
            </TripValor>
         </TripDetailsContent>
     )

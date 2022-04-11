@@ -86,6 +86,8 @@ export const LoginBtn = styled.div`
             cursor: pointer;
             transform: scale(1.1);
             transition: .3s;
+            color: #FFF;
+            background-color: #000;
         }
     }
 `

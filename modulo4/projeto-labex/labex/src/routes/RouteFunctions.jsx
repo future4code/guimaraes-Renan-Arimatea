@@ -18,3 +18,7 @@ export const GoToLoginPage = (navigate) => {
 export const GoToCreateTripPage = (navigate) => {
     navigate("/admin/trips/create")
 }
+
+export const GoToApplicationPage = (navigate) => {
+    navigate("/trips/application")
+}
